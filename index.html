@@ -1,0 +1,65 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的个人网站</title>
+<style>
+  /* 样式部分，你可以在这里定义你的页面样式 */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  /* 设置文字大小、颜色等 */
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  /* 设置底部按钮样式 */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .button {
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: #ddd;
+  }
+  /* 设置图片、动态图片、视频的样式 */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <h1>欢迎来到我的个人网站</h1>
+  <p>这里是你的文字内容，你可以根据需要修改。</p>
+
+  <!-- 插入静态图片 -->
+  <img src="path/to/your/static-image.jpg" alt="静态图片">
+
+  <!-- 插入动态图片 -->
+  <img src="path/to/your/animated-image.gif" alt="动态图片">
+
+  <!-- 插入视频 -->
+  <video src="path/to/your/video.mp4" controls></video>
+
+  <!-- 页面底部的跳转按钮 -->
+  <div class="button-group">
+    <a href="subpage1.html" class="button">子页面1</a>
+    <a href="subpage2.html" class="button">子页面2</a>
+    <a href="subpage3.html" class="button">子页面3</a>
+  </div>
+</body>
+</html>
